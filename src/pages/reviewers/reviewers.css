@@ -1,0 +1,22 @@
+.reviewers .con{
+    margin: 20px 0;
+    counter-reset: num; 
+}
+.reviewers .con li{
+    font-size: 16px;
+    line-height: 2;
+    border: 1px solid #3333;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 0px 4px #3333332b;
+    counter-increment: num;
+    list-style: none;
+    text-align: start;
+}
+.reviewers .con li::before{
+    content: counter(num) ". ";
+    font-weight: bold;
+}
+.reviewers .con li span{
+    font-weight: 800;
+}

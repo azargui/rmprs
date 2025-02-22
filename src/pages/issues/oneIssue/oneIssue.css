@@ -1,0 +1,81 @@
+main .issues h3{
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+main .oneResearch{
+    margin-top: 19px;
+    color: var(--second-color);
+    font-weight: 700;
+}
+main .oneResearch h2{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+main .oneResearch p::before{
+    content: '←';
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+main .oneResearch a,
+.researchSummary .down a,
+.slider a,
+a.downUrl{
+    border: 1px solid var(--main-color);
+    color: var(--main-color) !important;
+    padding: 10px !important;
+    margin-top: 5px !important;
+    font-size: 15px !important;
+    position: relative;
+    transition: .5s;
+}
+main .oneResearch a:hover,
+.researchSummary .down a:hover,
+.slider a:hover,
+a.downUrl:hover{
+    color: white !important;
+}
+main .oneResearch a::after,
+.researchSummary .down a::after,
+.slider a::after,
+a.downUrl::after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    background-color: var(--main-color);
+    border-radius: 50% 50% 0 0 ;
+    transition:.5s all;
+    z-index: -1;
+}
+main .oneResearch a:hover::after,
+.researchSummary .down a:hover::after,
+.slider a:hover::after,
+a.downUrl:hover::after{
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+}
+.issues > div > div{
+    width: 350px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.downUrl{
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -12px !important;
+}
+.img.issue img{
+    max-width: 100%;
+
+}

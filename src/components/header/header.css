@@ -1,0 +1,165 @@
+header {
+    background-color: white;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li{
+    display: inline-block;
+    position: relative;
+}
+header .social-media ol li a{
+    display: block;
+    padding: 5px;
+    margin: 7px 3px;
+    font-size: 22px;
+    color: white;
+    transition: .3s;
+}
+header nav ol li a i{
+    margin-right: 6px;
+    transform: rotate(90deg) translateX(2px);
+    transition: .3s;
+}
+header nav ol li:hover i{
+    transform: translatey(3px) rotate(180deg);
+}
+@media (min-width : 1200px){
+    header .top {
+        background-color: var(--main-color);
+    }
+    header  ol{
+        list-style: none;
+    }
+    header ol li a:hover{
+        color: var(--second-color) !important;
+        opacity: .8;
+    }
+    header .top nav ol li a{
+        display: block;
+        padding: 10px;
+        margin: 15px 4px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: .5s;
+    }
+    header .top nav ol li .subMenu{
+        display: none;
+        position: absolute;
+        z-index: 10;
+    }
+    header ol li:hover  .subMenu{
+        display: block !important;
+    }
+    header .top nav ol li .subMenu > div{
+        background-color: var(--main-color);
+        margin-top: 12px;
+        position: relative;
+    }
+    header .top nav ol li .subMenu > div::before{
+        content: '';
+        width: 14px;
+        height: 14px;
+        background-color: var(--main-color);
+        position: absolute;
+        top: -6px;
+        left: 50%;
+        z-index: -1;
+        transform: translateX(-50%) rotate(45deg);
+    }
+    header .top nav ol li .subMenu a{
+        margin: 0;
+        padding: 16px 25px;
+        display: block;
+        min-width: 175px;
+    }
+    header .top nav ol li .subMenu a:hover{
+        background-color: #1e5b7942;
+        color: white !important;
+    }
+    header .bottom .container{
+        justify-content: center;
+    }
+    header .bottom img{
+        display: block;
+        margin: 20px ;
+        width: 280px;
+    }
+    .mobile{
+        display: none;
+    }
+}
+@media (max-width:1200px){
+    .desk{
+        display: none;
+    }
+    .mobile {
+        padding: 20px 0;
+    }
+    .mobile nav ol{
+        /* display: none; */
+        padding-top: 70px;
+        position: fixed;
+        width: 100%;
+        min-height: 100vh;
+        top: 0;
+        right: 0;
+        background-color: black;
+        transition: .5s;
+        z-index: 99;
+    }
+    .mobile nav ol h1{
+        margin: 0 auto 19px;
+        font-size: 26px;
+        font-weight: 700;
+        color: white;
+        width: fit-content;
+        border-bottom: 4px solid var(--main-color);
+    }
+    .mobile nav ol li{
+        display: block;
+    }
+    .mobile nav ol li a{
+        display: block;
+        padding: 20px;
+        color: white;
+        border-bottom: 1px solid #333;
+        transition: .3s;
+        text-decoration: none;
+    }
+    .mobile nav ol li a:hover{
+        background-color: var(--main-color);
+    }
+    .mobile nav ol li .subMenu a{
+        padding-right: 37px;
+        font-size: 14px;
+    }
+    .mobile .container > div:first-child{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .mobile .container > div:first-child .show,
+    .mobile .container > div ol .close{
+        cursor: pointer;
+        font-size: 27px;
+        color: var(--second-color);
+    }
+    .mobile .container > div ol .close{
+        color: white;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        padding: 10px;
+    }
+    .mobile .container > div:first-child img{
+        width: 150px;
+    }
+    .mobile .social-media a {
+        color: var(--second-color);
+        font-size: 25px;
+    }
+}
