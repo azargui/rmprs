@@ -3,6 +3,7 @@ import '../oneIssue.css'
 import Title from '../../../../components/pageTitle/Title'
 import { getResearch } from '../../data'
 import { useEffect, useState } from 'react'
+import MetaTags from '../../../../SEO/MetaTags'
 import './researchSummary.css'
 
 export default function ResearchSummary(){
@@ -28,6 +29,10 @@ export default function ResearchSummary(){
         <div className="content researchSummary">
             {
                 researchSum ? <>
+                    <MetaTags 
+                    title={'rmprs - '+researchSum.title} 
+                    description={(researchSum?.langage == 'Francais' ? 'Une recherche scientifique publiée dans la Revue Marocaine de Publication des Recherches Scientifiques traite de ': researchSum?.langage == 'English' ? 'A scientific research published in the Moroccan Journal for the Publication of Scientific Research deals with ' :'بحث علمي منشور في المجلة المغربية لنشر الأبحاث العلمية يتناول ') + researchSum.title} keywords={researchSum.keywords}
+                    />
                     <Title title={'ملخص البحث :'}/>
                     <div className="gen-info">
                         <h3>{researchSum.title}</h3>
@@ -66,6 +71,7 @@ export default function ResearchSummary(){
                     </div>
                 </> :
                 <p className="empty">
+                    <MetaTags title='لا وجود لهذا الإصدار' />
                     لا وجود لهذا الملخص
                 </p>
             }

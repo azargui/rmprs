@@ -4,7 +4,6 @@
         formData.append('email', message.email)
         formData.append('message', message.message)
         const scriptURL = "https://script.google.com/macros/s/AKfycbxrwX0gwh5baQL0AU1D_W6RYejDY8eoSlI4oZUq3NTIgrJAh963t_E9-OZAOPoT21h0/exec"
-        console.log(JSON.stringify(formData))
         e.preventDefault()
         fetch(scriptURL, { 
             method: 'POST',

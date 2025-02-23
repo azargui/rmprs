@@ -33,8 +33,8 @@ export default function Slider(){
                     </div>
                     <div className="content" style={{ transform: `translateX(${index * 100}%)` }}>
                         {
-                            data.map((obj) => (
-                                <div className="oneSlider">
+                            data.map((obj, index) => (
+                                <div className="oneSlider" key={index}>
                                     <img src={obj.img} alt="background-image" className='sliderBackground'/>
                                     <div className="background"></div>
                                     <div>

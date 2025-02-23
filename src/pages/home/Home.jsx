@@ -3,11 +3,13 @@ import Header from "../../components/header/Header";
 import Title from "../../components/pageTitle/Title";
 import SideBar from "../../components/sideBar/SideBar";
 import Slider from "../../components/slider/Slider";
+import MetaTags from "../../SEO/MetaTags";
 import './home.css'
 
 export default function Home(){
     return (
         <div>
+            <MetaTags title='rmprs.com' description='المجلة المغربية لنشر الأبحاث العلمية هي مجلة علمية محكمة، متخصصة في نشر الأبحاث العلمية في مختلف التخصصات' keyword=''/>
             <Header/>
             <Slider/>
             <main>

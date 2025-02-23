@@ -14,7 +14,7 @@ const issues = [
                     "جامعة أهومي البريطانية",
                     "المملكة المغربية"
                 ],
-                summary: "تعتبر المعرفة العقدية إحدى التجليات الفكرية والسلوكية التي تميز عالم الإنسان الذي اصطبغ وجدانه بالمحددات المعرفية ذات المشرب العقدي كالقرآن والسنة وسيرة السلف والعقل والفطرة التي تومض فيه طاقة تجعله يتمكن من خوض غمار التحديات وبناء المجتمعات، وبالنظر إلى شخصية محمد بن عبد الكريم الخطابي باعتباره أحد المصلحين الذي تعددت عطاءاته وانبثقت منها رؤية للإصلاح شملت ميادين متعددة منها الجانب الاجتماعي والسياسي مرسيا بذلك جملة من القواعد والأسس التي انبت على المعرفة العقدية التي تعرضت للتعطيل، ولم تعد تؤدي الأدوار المنوطة بها بفعل ما اعترى الإنسان من الاستعمار الأجنبي والركود الحضاري والتواكل القدري، وعليه تتأسس رؤية الخطابي الإصلاحية عبر اتخاذه لمجموعة من المسالك التربوية للنفوذ إلى النفوس والعقول لاستنهاضها للقيام بما توجبه اللحظة التاريخية من جوانب همّت الجانب الاجتماعي و السياسي .\nومنه فإن هذا البحث يهدف إلى رصد وتتبع المسالك التي اقتفاها الخطابي للنهوض بالسلوك الاجتماعي والسياسي انطلاقا من المعارف العقدية المنغرسة في الوجدان، والتي استطاع من خلالها إبراز  الأثر الذي تعكسه المعرفة العقدية في عملية الإصلاح، ويتضح ذلك جليا عبر عدة نماذج عرفتها منطقة شمال المغرب، وهي نفس القواعد التي بثّها الخطابي في رسائله ومقالاته واستراتيجياته المتعددة، متوسلا في ذلك بمنهج الوصف والتحليل.\n",
+                summary: "تعتبر المعرفة العقدية إحدى التجليات الفكرية والسلوكية التي تميز عالم الإنسان الذي اصطبغ وجدانه بالمحددات المعرفية ذات المشرب العقدي كالقرآن والسنة وسيرة السلف والعقل والفطرة التي تومض فيه طاقة تجعله يتمكن من خوض غمار التحديات وبناء المجتمعات، وبالنظر إلى شخصية محمد بن عبد الكريم الخطابي باعتباره أحد المصلحين الذي تعددت عطاءاته وانبثقت منها رؤية للإصلاح شملت ميادين متعددة منها الجانب الاجتماعي والسياسي مرسيا بذلك جملة من القواعد والأسس التي انبت على المعرفة العقدية التي تعرضت للتعطيل، ولم تعد تؤدي الأدوار المنوطة بها بفعل ما اعترى الإنسان من الاستعمار الأجنبي والركود الحضاري والتواكل القدري، وعليه تتأسس رؤية الخطابي الإصلاحية عبر اتخاذه لمجموعة من المسالك التربوية للنفوذ إلى النفوس والعقول لاستنهاضها للقيام بما توجبه اللحظة التاريخية من جوانب همّت الجانب الاجتماعي و السياسي .\nومنه فإن هذا البحث يهدف إلى رصد وتتبع المسالك التي اقتفاها الخطابي للنهوض بالسلوك الاجتماعي والسياسي انطلاقا من المعارف العقدية المنغرسة في الوجدان، والتي استطاع من خلالها إبراز  الأثر الذي تعكسه المعرفة العقدية في عملية الإصلاح، ويتضح ذلك جليا عبر عدة نماذج عرفتها منطقة شمال المغرب، وهي نفس القواعد التي بثّها الخطابي في رسائله ومقالاته واستراتيجياته المتعددة، متوسلا في ذلك بمنهج الوصف والتحليل.",
                 keywords: "المعرفة العقدية، محمد بن عبد الكريم الخطابي، الإصلاح الاجتماعي والسياسي."
             },
             {
@@ -134,7 +134,8 @@ const issues = [
                     'FLSHBM-Béni Mellal-Maroc'
                 ],
                 summary: "Cet article analyse l'intégration du coaching pédagogique en classe de français, en particulier dans le cadre des activités orales. Il met en évidence l'importance de cette pratique innovante pour améliorer la participation des apprenants, leur motivation et leur expression orale. En abordant les obstacles classiques rencontrés par les enseignants et les apprenants, l'article propose des solutions concrètes tirées du coaching, telles que l’utilisation d'outils issus de la PNL et de la systémique, pour surmonter les difficultés liées à la confiance en soi, l'anxiété et les blocages émotionnels. L’article se base sur un état des lieux de l'enseignement du français au secondaire qualifiant et présente des pistes pour intégrer le coaching dans la pédagogie de l’enseignement du français afin de dynamiser l'apprentissage.",
-                keywords: 'coaching, apprentissage, motivation, apprenants, obstacle.'
+                keywords: 'coaching, apprentissage, motivation, apprenants, obstacle.',
+                langage:'Francais'
             }
         ]
     },
@@ -146,14 +147,6 @@ const issues = [
         downUrl:"",
         issues:[]
     },
-    {
-        title: 'العدد الثالث',
-        src: 'third',
-        date:'2025-03-25T00:00:00',
-        secondDate:"24 مارس 2024",
-        downUrl:"",
-        issues:[]
-    }
 ];
 
 // array contain just title and src 
@@ -177,7 +170,6 @@ const getIssue= (src) =>{
 // function return the specific researc by issue's name and research id
 const getResearch= (issue ,research) =>{
     const issueFounded = issues.find(element => element.src == issue)
-    console.log(research)
     if (!issueFounded){
         return null
     }

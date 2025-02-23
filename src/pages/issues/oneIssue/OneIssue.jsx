@@ -4,6 +4,7 @@ import Title from '../../../components/pageTitle/Title'
 import { getIssue } from '../data'
 import { useEffect, useState } from 'react'
 import CountdownTimer from '../../../components/countor/countor'
+import MetaTags from '../../../SEO/MetaTags'
 
 export default function OneIssue(){
     const [oneIssues, setoneIssues] = useState({})
@@ -17,9 +18,14 @@ export default function OneIssue(){
         <div className="content">
             {
                 (!oneIssues?.issues)
-                ? <p className="empty">لاوجود هذا الإصدار</p>
+                ? 
+                <>
+                    <p className="empty">لاوجود لهذا الإصدار</p>
+                    <MetaTags title='لا وجود لهذا الإصدار'/>
+                </>
                 :
                 <>
+                    <MetaTags title={oneIssues.title} description={`${oneIssues.title} من إصدرات المجلة المغربية لنشر الأبحاث العلمية`}/>
                     <Title title={oneIssues.title}/>
                     <ol className="issues">
                         {
