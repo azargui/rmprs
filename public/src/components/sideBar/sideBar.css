@@ -1,0 +1,69 @@
+.sideBar{
+    min-width: 250px;
+    order: 2;
+}
+.sideBar ol{
+    padding: 8px 15px;
+    list-style: none;
+    margin: 10px 0;
+    line-height: 1.8;
+    font-size: 15.4px;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+}
+.sideBar .mokup img{
+    display: block;
+    max-width: 100%;
+    width: 188px;
+    margin: 7px auto -19px;
+}
+.sideBar ol:not(.inf) li:first-child{
+    font-weight: bold;
+    color: var(--second-color);
+    text-align: center;
+}
+.sideBar ol:not(.inf) li:nth-child(2){
+    color: var(--main-color);
+    font-weight: 900;
+    text-align: center;
+    margin: -3px 0px 3px;
+}
+.sideBar ol:not(.inf) li:nth-child(3){
+    font-weight: 600;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: #ff0000ba;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 9px;
+}
+.sideBar #release-Date li:nth-child(3){
+    color: white;
+    background-color: var(--main-color);
+}
+.sideBar ol.inf{
+    padding: 0;
+}
+.sideBar ol.inf li{
+    background-color: var(--second-color);
+    color: white;
+    padding: 8px 15px;
+    border-bottom: 2px solid white;
+}
+.sideBar ol.inf li.title{
+    font-weight: bold;
+}
+.sideBar .DepositNumber,
+.sideBar .issn{
+    padding: 7px 15px;
+    border: 2px solid var(--second-color);
+    margin-bottom: 6px;
+    border-radius: 5px;
+    background-color: var(--second-color);
+    color: white;
+    font-size: 15px;
+    letter-spacing: .5px;
+    font-weight: bold;
+    text-align: center;
+}

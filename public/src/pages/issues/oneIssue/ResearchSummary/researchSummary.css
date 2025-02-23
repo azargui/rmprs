@@ -1,0 +1,72 @@
+.researchSummary h3{
+    color: var(--second-color);
+}
+.researchSummary .gen-info {
+    margin: 16px 0;
+}
+.researchSummary .gen-info p{
+    font-weight: bold;
+    margin: 5px 0;
+}
+.researchSummary .summary,
+.researchSummary .keywords,
+.researchSummary .down{
+margin-bottom: 10px;
+}
+.researchSummary .summary h3,
+.researchSummary .keywords h3,
+.researchSummary .down h3{
+    text-decoration: underline;
+    margin-bottom: 6px;
+}
+.researchSummary .summary p{
+    text-indent: 40px;
+}
+.researchSummary .keywords p{
+    font-weight: bold;
+}
+.researchSummary .down a{
+    display: block;
+    width: fit-content;
+    margin-right: 10px;
+    border-width: 2px;
+    font-weight: bold;
+    padding: 9px 20px !important;
+}
+.researchSummary .pagination{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.researchSummary .pagination a{
+    max-width: 40%;
+    padding: 7px 15px;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin: 0 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.researchSummary .pagination a:first-child{
+    background-color: var(--second-color);
+}
+.researchSummary .pagination a:first-child span{
+    margin-left: 7px;
+}
+.researchSummary .pagination a:nth-child(2) span{
+ margin-right: 7px;
+}
+@media (max-width:448px) {
+    .researchSummary .pagination a{
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+@media (max-width: 768px) {
+    .researchSummary .pagination {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #3333;
+    }
+}

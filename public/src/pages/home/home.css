@@ -1,0 +1,38 @@
+main {
+    margin-top: 30px;
+}
+main .container{
+    display: flex;
+    gap: 20px;
+}
+main .container .content{
+    min-width: 70%;
+}
+main h3.pTitle{
+    padding: 17px 0 8px;
+    font-size: 18px;
+    color: #c99b06;
+}
+main p,
+.researchSummary .gen-info p,
+main ul li,
+main ol li{
+    color: #333;
+    line-height: 1.8;
+    word-spacing: 3px;
+    letter-spacing: .5px;
+    font-size: 15px;
+    text-align: justify;
+}
+/* for mobile*/
+@media (max-width:768px){
+    main .container{
+        flex-direction: column;
+    }
+    main .container .content{
+        min-width: auto;
+    }
+    main .sideBar{
+        order: 2;
+    }
+}

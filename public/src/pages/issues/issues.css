@@ -1,0 +1,37 @@
+main .issues ul{
+    list-style-position: inside;
+}
+main .issues .oneResearch .buttons{
+    max-width: 100%;
+    display: flex;
+    gap: 5px;
+}
+main .issues li a{
+    padding: 2px 0;
+    margin: 16px 0;
+    display: inline-block;
+    max-width: calc(50% - 2.5px);
+    font-size: .9em !important;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+p.empty{
+    list-style: none;
+    padding: 20px;
+    border: 2px solid var(--main-color);
+    background-color: #fffcf1;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+@media(max-width:390px){
+    main .issues li a{
+        font-size: .7rem !important;
+    }
+}

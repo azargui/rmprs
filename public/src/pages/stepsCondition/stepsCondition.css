@@ -1,0 +1,11 @@
+main .content ul li{
+    line-height: 2;
+    letter-spacing: .4px;
+    font-size: 15px;
+    color: #333;
+}
+main .content ul li a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: bold;
+}

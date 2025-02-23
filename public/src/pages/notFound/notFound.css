@@ -1,0 +1,21 @@
+.notFound{
+    max-width: 100%;
+    width: 500px;
+    padding: 40px;
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid #e5c45a;
+    background-color: #ffc61157;
+}
+.notFound i{
+    font-size: 60px;
+    margin: 0 0 20px;
+}
+.notFound p{
+    text-align: center;
+    direction: ltr;
+    color: gray;
+}
+.notFound h1{
+    font-weight: 700;
+}
